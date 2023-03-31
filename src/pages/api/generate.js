@@ -9,7 +9,7 @@ export default async function handler(req, res) {
         }
 
         if (!apiKey) {
-            return res.status(400).json({ error: 'API key is missing' });
+            return res.status(400).json({ error: 'Add your API key' });
         }
         const decryptedKey = CryptoJS.AES.decrypt(apiKey, process.env.NEXT_PUBLIC_NEXTAUTH_KEY).toString(CryptoJS.enc.Utf8);
 
