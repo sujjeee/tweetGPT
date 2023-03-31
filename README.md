@@ -1,4 +1,4 @@
-# TweetsGPT : (https://imagealt.vercel.app/)
+# TweetsGPT : (https://tweetsgpt.vercel.app/)
 
 <kbd>
 <a href="https://tweetsgpt.vercel.app/">
