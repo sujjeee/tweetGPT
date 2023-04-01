@@ -1,4 +1,4 @@
-# TweetsGPT : (https://imagealt.vercel.app/)
+# TweetsGPT : (https://tweetsgpt.vercel.app/)
 
 <kbd>
 <a href="https://tweetsgpt.vercel.app/">
@@ -6,6 +6,7 @@
 </a>
 </kbd>
 
+## Introduction
 TweetsGPT is a web application that generates tweet ideas for users based on their desired tone and type of tweet. Users can set the tone of their tweet to be casual, professional, funny, sarcastic, and more. Additionally, they can choose the type of tweet they want to generate, such as a regular tweet, a retweet, or a reply tweet. So set the vibe and the type of tweet you want, and let the power of OpenAI GPT-3 do the rest.
 
 ## Features
