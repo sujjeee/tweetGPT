@@ -42,6 +42,12 @@ const index = () => {
   const generateBio = async (e) => {
     e.preventDefault();
     setLoading(true);
+
+    if (apiKey === null) {
+      toast.error("Please Add Your API Key!");
+      setLoading(false);
+      return
+    }
     const response = await fetch("/api/generate", {
       method: "POST",
       headers: {
