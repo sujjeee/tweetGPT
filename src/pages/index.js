@@ -78,7 +78,7 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>TweetsGPT - Generate tweets for you.</title>
+        <title>ThreadsGPT - Generate Threads/Tweets for You!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='relative'>
@@ -124,7 +124,7 @@ const index = () => {
 
         <div className='max-w-5xl flex flex-col justify-center items-center mx-auto sm:py-24 py-[68px] '>
           <h1 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-blue-600 to-purple-800 flex items-center tracking-wide py-10">
-            TweetsGPT
+            ThreadsGPT
           </h1>
           <section className='flex flex-col max-w-xl w-full px-4 gap-5'>
             <div>
