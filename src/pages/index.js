@@ -128,7 +128,7 @@ const index = () => {
           </h1>
           <section className='flex flex-col max-w-xl w-full px-4 gap-5'>
             <div>
-              <p className="my-2 text-gray-600 font-bold px-0.5">1. Select your vibe and type of tweet</p>
+              <p className="my-2 text-gray-600 font-bold px-0.5">1. Select your vibe and type of thread/tweet</p>
               <div className="w-full flex gap-2">
                 <DropDown
                   vibe={vibe}
@@ -141,7 +141,7 @@ const index = () => {
               </div>
             </div>
             <div>
-              <p className="my-2 text-gray-600 font-bold px-0.5">2. Write about your tweet</p>
+              <p className="my-2 text-gray-600 font-bold px-0.5">2. Write about your thread/tweet</p>
               <textarea
                 value={tweet}
                 onChange={(e) => setTweet(e.target.value)}
@@ -157,12 +157,12 @@ const index = () => {
                 type='submit'
                 onClick={generateBio}
                 className="bg-gradient-to-br to-blue-600 from-purple-800 rounded-md text-white font-medium px-4 py-2 w-full">
-                Generate your tweet &rarr;
+                Generate your thoughts &rarr;
               </button>
               : <button
                 type='submit'
                 onClick={generateBio}
-                className="bg-gradient-to-br to-blue-600 from-purple-800 rounded-md text-white font-medium px-4 py-2   w-full"
+                className="bg-gradient-to-br to-blue-600 from-purple-800 rounded-md text-white font-medium px-4 py-2 w-full"
               >
                 Generating....
               </button>
@@ -176,7 +176,7 @@ const index = () => {
                       <h2
                         className="text-3xl sm:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-br to-blue-600 from-purple-800 flex items-center tracking-wide"
                       >
-                        Generated Tweets
+                        Generated Threads/Tweets
                       </h2>
                     </div>
                   </div>
